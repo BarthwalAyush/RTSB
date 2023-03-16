@@ -1,10 +1,10 @@
 import React from 'react'
 import { Navbar, Footer, Blogs } from "../components"
 
-const Homepage = () => {
+const Homepage = ({blogs}) => {
   return (<>
     <Navbar />
-    <Blogs />
+    <Blogs blogs={blogs?blogs:""}/>
     <Footer/>
   </>
   )
