@@ -16,6 +16,26 @@
       "type": "string"
     },
     "coverImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "blogDescription": {
+      "type": "string"
+    },
+    "blogContent": {
+      "type": "richtext"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorImg": {
       "allowedTypes": [
         "images",
         "files",
@@ -25,10 +45,7 @@
       "type": "media",
       "multiple": false
     },
-    "blogDescription": {
-      "type": "string"
-    },
-    "blogContent": {
+    "authorDesc": {
       "type": "richtext"
     }
   }
